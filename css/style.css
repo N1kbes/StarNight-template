@@ -1,0 +1,637 @@
+
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 3.75rem;
+	text-align: center;
+	color: #ffffff;
+	margin: 0px;
+	font-weight: 300;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 3.4375rem;
+	color: #ffffff;
+	margin: 0px;
+	font-weight: 300;
+}
+
+h3{
+    font-size: 2.8125rem;
+    font-family: "Lato";
+    color: #abbcc3;
+    line-height: 1.178;
+    font-weight: 300;
+    margin: 0px;
+}
+
+h4{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 1.066666rem;
+	color: #9197a8;
+	text-transform: uppercase;
+	letter-spacing: 2px;;
+}
+
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+a:active{
+	color: #ffffff;
+}
+
+body{
+	margin: 0px;
+}
+
+#wrapper{
+	width: 100%;
+	min-width: 480px;
+}
+
+#full-page{
+	width: 100%;
+}
+
+.app-header{
+	padding-top: 24.26vh;
+}
+
+.subtitle{
+	margin-top: 9.0702vh;
+	margin-bottom: 3.8548vh;
+} 
+.musthead{
+	width: 100%;
+	height: 100vh;
+	background-image: url(..//img/GalaxyNGC319.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 480px;
+}
+
+.musthead span{
+	display: block;
+	font-size: 1.0625rem;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	color: #d0e7e9;
+	text-align: center;
+	margin: auto;
+ }
+
+ .musthead button{
+ 	display: block;
+ }
+
+ .intro-button{
+ 	width: 99px;
+ 	height: 99px;
+ 	margin: auto;
+ }
+
+
+
+ .getstarted-button a{
+ 	display: block;
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight: 700;
+ 	font-size: 1.375rem;
+ 	color: #FFFFFF;
+ 	background-color: #7accc8;
+ 	border-radius: 3px;
+ 	padding-top: 2.8344vh;
+ 	padding-bottom: 3.2879vh;
+ 	width: 17.5vw;
+ 	min-width: 280px;
+ 	text-align: center;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 29.8185vh;
+}
+
+ .getstarted-button a:hover{
+ 	background-color: #39928E;
+ 	color: #BABABA;
+}
+
+
+
+.download-section{
+  	display: flex;
+  	width: 100%;
+  	background-color: #e8b968;
+
+
+}
+
+.left-content{
+	width: 56%;
+	padding-top: 92px;
+	padding-bottom: 183px;
+	background-image: url(..//img/ipad-left.png);
+	background-repeat: no-repeat;
+	background-position: right bottom; 
+}
+
+.text-desc{
+	padding-left: 13.125%;
+	padding-right: 5.5625%;
+	max-width: 71%;
+}
+
+.left-content h2{
+	padding-bottom: 40px;
+	
+}
+
+.download-button a{
+	display: block;
+	width: 274px;
+	height: auto;
+	border-radius: 3px;
+	border: 3px solid #ffffff;
+	color: #ffffff;
+	font-size: 1.125rem;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	text-align: center;
+	word-spacing: normal;
+	line-height: 1;;
+}
+
+ .download-button a:hover{
+ 	border: 3px solid #000000;
+ 	color: #000000
+}
+
+.left-content .padding-paragraph{
+	padding-top: 48px;
+	padding-bottom: 47px;
+}
+
+.device-image{
+
+	width: 44%;
+	height: auto;
+	background-image: url(..//img/ipad-right.png);
+	background-repeat: no-repeat;
+	background-position: left bottom; 
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.recalls{
+	width: 100%;
+	height: 464px;
+	background-color: #5c696a;
+	;
+	padding-top: 136px;
+	background-image: url(..//img/splitshire.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	ba
+}
+.user-image{
+	width: 132px;
+	height: 132px;
+	margin: 0 auto;
+}
+.recalls span{
+	display: block;
+	margin: 35px auto 60px;
+	font-family: 'Lato', sans-serif;
+	font-size: 2.6875rem;
+	font-weight: 300;
+	font-style: italic;
+	color: #ffffff;
+	max-width: 1060px;
+	text-align: center;
+
+}
+.app-features{
+	margin-bottom: 135px;
+}
+.triangle-center{
+	margin: 0 auto;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #5c696a;
+}
+.content-wrapper{
+	width: 75%;
+	background-color: #ffffff;
+	margin: 0 auto;
+	justify-content: space-between;
+	display: flex;
+	height: auto;
+}
+.content-wrapper .features-row{
+	max-width: 43.75%;
+}
+
+.feature{
+	margin-top: 90px;
+}
+.feature p{
+	color: #7a8387;
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+}
+
+.button-trydemo a{
+	display: block;
+	width: 131px;
+	height: 18px;
+	border-radius: 2px;
+	background-color: #f69679;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	padding-left: 50px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 1.125rem;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.button-trydemo a:hover{
+ 	color: #BABABA;
+}
+.content-wrapper{
+	margin-bottom: 80px;
+}
+
+.functions{
+	width: 100%;
+	background-color: #f6f6f4;
+}
+
+.functions .content-wrapper{
+	padding-top: 98px;
+	padding-bottom: 160px;
+	margin-bottom: 0;
+	background-color: inherit;
+	justify-content: flex-start;
+}
+
+.function-card{
+
+}
+
+.function-card2{
+	width: 21.25vw;
+	margin-left: 1.375vw;
+}
+
+.card-image{
+	width: 21.25vw;
+	height: 21.25vw;
+	background-color: #f69679;
+}
+
+.card-image2{
+	width: 21.25vw;
+	height: 21.25vw;
+	background-color: #e8b968;
+}
+
+.card-text{
+	background-color: #ffffff;
+	width: 21.25vw;
+	height: 150px;
+}
+
+.functions h4{
+	margin: 0px;
+	padding-left: 30px;
+	padding-top: 40px;
+}
+
+
+.card-text span{
+	font-size: 1rem;
+	font-family: "Lato";
+	padding-left: 30px;
+	color: #7a8387;
+	font-style: italic;
+	line-height: 1.875;
+	display: block;
+}
+
+
+.functions-header{
+	width: 90%;
+	margin-left: 3.33%;;
+}
+
+.functions-header p{
+	color: #abbcc3;
+	line-height: 1.7;
+	margin-top: 10px;
+}
+
+footer{
+	width: 100%;
+	background-color: #7accc8;
+	padding-top: 75px;
+	padding-bottom: 240px;
+}
+
+
+footer nav ul{
+	list-style-type: none;
+	margin: 0px;
+}
+
+footer nav a{
+	text-decoration: none;
+	color: white;
+	list-style: none;
+
+}
+.footer-text{
+	width: 53%;
+	display: flex;
+}
+footer .flex-text1{
+	width: 61%;
+}
+
+footer .flex-text2{
+	width: 33.3%;
+	margin-left: 5.55%;
+}
+
+footer .content-wrapper{
+	background-color: inherit;
+	margin-bottom: 70px;
+}
+footer .flex-text1, footer .flex-text2{
+	font-family: 'Lato', sans-serif;
+	font-size: 0.875em;
+	color: #ffffff;
+	line-height: 1.7;
+}
+
+footer nav a{
+	font-family: 'Lato', sans-serif;
+	font-size: 0.875em;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 2;
+}
+footer .logo{
+	background-image: url(..//img/logo.png);
+	background-repeat: no-repeat;
+	width: 3.87vw;
+	height: 4.1vw;
+	margin: 0px auto;
+	background-size: cover;
+	min-width: 60px;
+	min-height: 62px;
+}
+address{
+	text-align: center;
+	margin-top: 80px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.75em;
+	font-style: normal;
+	letter-spacing: 5px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width:600px) {
+	.subtitle span{
+		max-width: 90%;
+	}
+
+}
+@media screen and (min-width: 0px) and (max-width:960px) {
+	.subtitle span{
+		max-width: 95%;
+	}
+	 .getstarted-button a{
+	 	margin-top: 90px;
+	 }
+
+	 .functions .content-wrapper{
+
+	 }
+}
+
+
+@media screen and (min-width: 0px) and (max-width:700px) {
+	.device-image{
+		display: none;
+	}
+
+	.left-content{
+		width: 100%;
+	}
+
+	.footer-text{
+		display: none;
+	}
+
+	footer nav li{
+		font-size: 2em;
+	}
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width:875px) {
+	.functions .content-wrapper{
+	flex-direction: column;
+	justify-content: center;
+
+	}
+
+	.functions .content-wrapper .function-card{
+	width: 50vw;
+	margin: 0 auto;
+		
+	}
+
+	.functions .content-wrapper .function-card2{
+		display: none;
+	}
+
+	.functions-header{
+		margin-top: 15px;
+	}
+
+	.card-image{
+	width: 50vw;
+	height: 50vw;
+	background-color: #f69679;
+}
+
+
+.card-text{
+	background-color: #ffffff;
+	width: 50vw;
+	height: 150px;
+}
+
+
+.footer-text{
+	width: 80%
+}
+
+}
+
+@media screen and (min-width:800px){
+	.subtitle span{
+		width: 780px;
+	}
+}
+
+/*height media*/
+
+@media screen and (min-height:640px) and (max-height:900px) {
+	.app-header{
+		padding-top: 100px;
+	}
+	 .getstarted-button{
+	 	margin-top: 90px;
+	 }
+	 
+}
+
+@media screen and (min-height:0px) and (max-height:640px) {
+	.app-header{
+		padding-top: 50px;
+	}
+	 .getstarted-button{
+	 	margin-top: 30px;
+	 }
+}
+
+/*iPhone 5*/
+@media screen and (min-device-width : 320px) and (max-device-width : 568px){
+
+	#wrapper{
+		min-width: 0px;
+	}
+
+	h1{
+		font-size: 2rem;
+	}
+
+	h2{
+		font-size: 1.7rem;
+	}
+
+	h3{
+		font-size: 1.5rem;
+	}
+
+	.left-content{
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	.download-button a{
+		width: 240px;
+	}
+
+	.recalls span{
+		font-size: 1.2em;
+	}
+	.subtitle span{
+		max-width: 90%;
+	}
+
+	.hidden{
+		display: none;
+	}
+
+	.content-wrapper .features-row{
+		max-width: 95%;
+	}
+	.device-image{
+		display: none;
+	}
+	.functions .content-wrapper{
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+	.left-content{
+		width: 100%;
+	}
+
+	.footer-text{
+		display: none;
+	}
+
+	footer nav li{
+		font-size: 2em;
+	}
+		.functions .content-wrapper{
+	flex-direction: column;
+	justify-content: center;
+
+	}
+
+	.functions .content-wrapper .function-card{
+	width: 50vw;
+	margin: 0 auto;
+		
+	}
+
+	.functions .content-wrapper .function-card2{
+		display: none;
+	}
+
+	.functions-header{
+		margin-top: 15px;
+	}
+
+	.card-image{
+	width: 50vw;
+	height: 50vw;
+	background-color: #f69679;
+}
+
+
+.card-text{
+	background-color: #ffffff;
+	width: 50vw;
+	height: 150px;
+}
+
+footer{
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+
+
+}
