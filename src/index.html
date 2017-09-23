@@ -11,10 +11,10 @@
 	<script type="text/javascript" src="js/script.js"></script>
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/owl.theme.css">
-	<link rel="stylesheet" type="text/css" href="http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/owl.carousel.js"></script>
-    <script src="http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
 
 </head>
 <body>
@@ -25,10 +25,10 @@
 				<h1>Starnight App</h1>
 				<div class="subtitle">
 				<span>Lorem ipsum dolor sit amet, consectetur adipisicing 		elit, sed do eiusmod tempor incididunt ut labore
- 					  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+ 					  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 				</span>
 				</div>
-				<div id="play-intro" class="intro-button"><a href="https://youtu.be/B3GribQCg6c" class="video"><img src="img/button_play.png"></a></div>
+				<div id="play-intro" class="intro-button"><a href="https://youtu.be/9jM0v6kwTtE" class="video"><img src="img/button_play.png"></a></div>
 				<div id="get-started" class="getstarted-button"><a href="#">Get Started</a></div>
 			</div>
 		</section>
@@ -41,7 +41,7 @@
 					<div class="download-button"><a href="#">Download Now</a></div>
 				</div>
 			</div>
-				<div class="device-image">	
+				<div class="device-image">
 				</div>
 		</section>
 		<section id="recall" class="recalls">
@@ -96,7 +96,7 @@
 					<h4>extra startup juice</h4>
 						<span>Added feature</span>
 					</div>
-				</div>	
+				</div>
 				<div class="function-card2">
 					<div class="card-image2"></div>
 					<div class="card-text">
@@ -128,7 +128,7 @@
 							<li><a href="#">Design</a></li>
 							<li><a href="#">Work</a></li>
 							<li><a href="#">Contact me</a></li>
-						</ul>	
+						</ul>
 					</nav>
 				</div>
 			<div class="logo">
@@ -139,54 +139,54 @@
 </div>
 <script>
 $(document).ready(function() {
- 
+
   $("#owl-demo").owlCarousel({
- 
+
       navigation : false, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true
- 
+
       // "singleItem:true" is a shortcut for:
-      // items : 1, 
+      // items : 1,
       // itemsDesktop : false,
       // itemsDesktopSmall : false,
       // itemsTablet: false,
       // itemsMobile : false
- 
+
   });
- 
+
 });
 
 $('.video').magnificPopup({
   type: 'iframe',
-  
-  
+
+
   iframe: {
     patterns: {
       dailymotion: {
-       
+
         index: 'youtu.be',
-        
-        id: function(url) {        
+
+        id: function(url) {
             var m = url.match(/^.+youtu.be\/(video|hub)\/([^_]+)[^#]*(#video=([^_&]+))?/);
             if (m !== null) {
                 if(m[4] !== undefined) {
-                  
+
                     return m[4];
                 }
                 return m[2];
             }
             return null;
         },
-        
+
         src: '//www.youtube.com/embed/B3GribQCg6c?rel=0&amp;controls=0&amp;showinfo=0'
-        
+
       }
     }
   }
-  
-  
+
+
 });
 </script>
 </body>

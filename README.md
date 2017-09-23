@@ -1,6 +1,6 @@
 # StarNight-responsive-template
 Website for StarNight App<br>
-<a href="http://starnight.eu.pn/">Demo</a>
+<a href="https://starnight-template.firebaseapp.com">Demo</a>
 <br>
 <b>Created with:</b>
 <ul>

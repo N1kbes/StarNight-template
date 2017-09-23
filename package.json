@@ -1,0 +1,22 @@
+{
+  "name": "starnight-template",
+  "version": "1.0.0",
+  "description": "Website for StarNight App<br>\r <a href=\"http://starnight.eu.pn/\">Demo</a>\r <br>\r <b>Created with:</b>\r <ul>\r <li>html\r <li>css\r <li>jquery\r <li>magnific popup plugin\r <li>owl carousel\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N1kbes/StarNight-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N1kbes/StarNight-template/issues"
+  },
+  "homepage": "https://github.com/N1kbes/StarNight-template#readme",
+  "dependencies": {
+    "firebase": "^4.4.0"
+  }
+}
